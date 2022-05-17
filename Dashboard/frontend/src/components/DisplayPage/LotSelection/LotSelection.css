@@ -1,0 +1,536 @@
+.lot-selection{
+    margin:5px;
+    width:99%;
+    height:60%;
+    position:relative;
+}
+
+.lot-selection-form{
+    text-align: left;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+.lot-selection-form-container{
+    text-align: left;
+    width:31%;
+    height:75%;
+    margin:5px;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    position:absolute;
+    overflow-y:auto;
+}
+
+.lot-selection-calendar-options-container{
+    text-align: left;
+    width:28%;
+    height:75%;
+    margin:5px;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    left: 348px;
+    position:absolute;
+    overflow-y:auto;
+}
+
+.lot-selection-display-container{
+    text-align: left;
+    width:38%;
+    height:75%;
+    margin:5px;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    left: 663px;
+    position:absolute;
+    overflow-y:auto;
+}
+
+.lot-selection-display-container-summary{
+    text-align: left;
+    width:96.5%;
+    height:68%;
+    margin:5px;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+
+    position:absolute;
+    overflow-y:auto;
+}
+
+.lot-selection-id-filter-container{
+    text-align: center;
+    width:35%;
+    height:78%;
+    margin:5px;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    top: 305px;
+    position:absolute;
+}
+
+/* changed from "lot-selection-aggregation-container" */
+.lot-selection-data-retrieval-container{
+    text-align: center;
+    width:27%;
+    height:78%;
+    margin:5px;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    top: 305px;
+    left: 392px;
+    position:absolute;
+}
+
+.lot-selection-parameter-filter-container{
+    text-align: center;
+    width:35%;
+    height:78%;
+    margin:5px;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    top: 305px;
+    left: 696px;
+    position:absolute;
+}
+
+
+
+
+.lot-selection-form-technology-container{
+    display: block;
+}
+
+.lot-selection-form-technology-select{
+    display:inline-block;
+    margin:5px 10px;
+}
+
+
+
+.lot-selection-form-data-type-container{
+    display: block;
+}
+
+.lot-selection-form-data-type-select{
+    display: inline-block;
+    margin:5px 10px;
+}
+
+
+
+.lot-selection-form-Mfg-area-container{
+    display: block;
+}
+
+.lot-selection-form-Mfg-area-select{
+    display: inline-block;
+    margin:5px 10px;
+}
+
+
+
+.lot-selection-form-product-family-container{
+    display: block;
+}
+
+.lot-selection-form-product-family-select{
+    display: inline-block;
+    margin:5px 10px; 
+}
+
+
+
+.lot-selection-form-product-container{
+    display: block;
+}
+
+.lot-selection-form-product-select{
+    display: inline-block;
+    margin:5px 10px; 
+}
+
+
+
+.lot-selection-form-lot-type-container{
+    display: block;
+}
+
+.lot-selection-form-lot-type-select{
+    display: inline-block;
+    margin:5px 10px; 
+}
+
+
+
+.lot-selection-form-project-container{
+    display: block;
+}
+
+.lot-selection-form-project-select{
+    display: inline-block;
+    margin:5px 10px; 
+}
+
+
+
+.lot-selection-form-mcn-container{
+    display: block;
+}
+
+.lot-selection-form-mcn-select{
+    display: inline-block;
+    margin:5px 10px; 
+}
+
+
+
+.lot-selection-form-part-id-mask-set-container{
+    display: block;
+}
+
+.lot-selection-form-part-id-mask-set-select{
+    display: inline-block;
+    margin:5px 10px; 
+}
+
+
+
+.lot-selection-form-part-id-container{
+    display: block;
+}
+
+.lot-selection-form-part-id-select{
+    display: inline-block;
+    margin:5px 10px;
+}
+
+
+
+.lot-selection-form-process-area-container{
+    display: block;
+}
+
+.lot-selection-form-process-area-select{
+    display: inline-block;
+    margin:5px 10px;
+}
+
+
+
+.lot-selection-form-operation-container{
+    display: block;
+}
+
+.lot-selection-form-operation-select{
+    display: inline-block;
+    margin:5px 10px;
+}
+
+
+
+.lot-selection-form-sub-operation-container{
+    display: block;
+}
+
+.lot-selection-form-sub-operation-select{
+    display: inline-block;
+    margin:5px 10px;
+}
+
+
+
+.lot-selection-form-equipment-container{
+    display: block;
+}
+
+.lot-selection-form-equipment-select{
+    display: inline-block;
+    margin:5px 10px;
+}
+
+
+
+
+
+.lot-selection-form-calendar-container{
+    display:block;
+    margin-left:10px;
+}
+
+.lot-selection-form-calendar-container-date-time{
+    display: inline-block;
+    margin:5px 10px;
+}
+
+
+
+.lot-selection-id-filter-container-box{
+    text-align: left;
+    width:96%;
+    height:70%;
+    margin:5px;
+    top: 18px;
+    position:absolute;
+}
+
+.lot-selection-id-filter-container-list-box{
+    width:100%;
+    height:121%;
+    position:absolute;
+    top:10px;
+    left:3px;
+}
+
+
+
+
+
+
+.lot-selection-parameter-container-box{
+    text-align: left;
+    width:96%;
+    height:90%;
+    margin:5px;
+    top: 18px;
+    position:absolute;
+}
+
+.lot-selection-parameter-container-box-top{
+    text-align: center;
+    width:100%;
+    height:20%;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    position:absolute;
+}
+
+.lot-selection-parameter-container-box-middle{
+    text-align: center;
+    width:100%;
+    height:63%;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    position:absolute;
+    top: 63px;
+    overflow-y:auto;
+}
+
+.lot-selection-parameter-container-box-middle-container{
+    text-align: center;
+}
+
+
+/*WIP*/
+
+.lot-selection-parameter-container-box-middle-container-selection-WIP-available-operation{
+    text-align: left;
+    width:60%;
+    height:20%;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    position:absolute;
+    top: 35px;
+    margin-left:5px;
+    margin-right:5px;
+    overflow-y:auto;
+    display:block;
+}
+
+.lot-selection-parameter-container-box-middle-container-checkbox{
+    position:absolute;
+    top: 80px;
+    left: 5px;
+    display:block;
+}
+
+.lot-selection-parameter-container-box-middle-container-WIP-list-box{
+    width:98%;
+    height:85%;
+    position:absolute;
+    left:5px;
+    top: 120px;
+}
+
+
+/*WP*/
+
+.lot-selection-parameter-container-box-middle-container-selection-WP-operation{
+    text-align: left;
+    width:50%;
+    height:10%;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    position:absolute;
+    top: 40px;
+    left: 0px;
+    margin-left:5px;
+    margin-right:5px;
+    overflow-y:auto;
+}
+
+.lot-selection-parameter-container-box-middle-container-WP-list-box{
+    width:98%;
+    height:85%;
+    position:absolute;
+    left:5px;
+    top: 70px;
+}
+
+
+/*PCM*/
+
+.lot-selection-parameter-container-box-middle-container-selection-PCM-operation{
+    text-align: left;
+    width:50%;
+    height:10%;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    position:absolute;
+    top: 40px;
+    left: 0px;
+    margin-left:5px;
+    margin-right:5px;
+    overflow-y:auto;
+}
+
+
+.lot-selection-parameter-container-box-middle-container-PCM-list-box{
+    width:98%;
+    height:85%;
+    position:absolute;
+    left:5px;
+    top: 70px;
+}
+
+
+
+
+.lot-selection-parameter-container-box-bottom{
+    text-align: center;
+    width:100%;
+    height:13%;
+    position:absolute;
+    top: 243px;
+    left:3px;
+}
+
+.lot-selection-parameter-container-box-bottom-submit{
+    display: inline-block;
+}
+
+
+
+
+
+
+.lot-selection-display-get-lot-id{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/********** CSS for calendar components **********/
+
+/***** Date *****/
+
+/***** Last n Days/Lots *****/
+/* General */
+.lot-selection-calendar-options-last-days-n-lots-container {
+    margin-top: 10px;
+}
+
+.lot-selection-calendar-options-last-days-n-lots-container input[type="number"] {
+    width: 38px;
+}
+
+.lot-selection-calendar-options-last-days-n-lots-container label {
+    margin: 10px;
+}
+/* Last Days */
+.lot-selection-calendar-options-last-days-n-lots-last-days-container {
+    margin-bottom: 10px;
+}
+
+
+
+
+/***** Calendar Rule *****/
+/* General */
+.lot-selection-calendar-options-calendar-rule-container {
+    margin-top: 10px;
+}
+
+.lot-selection-calendar-options-calendar-rule-container label {
+    margin: 6px;
+}
+
+.lot-selection-calendar-options-calendar-rule-container input[type="number"] {
+    width: 38px;
+}
+
+/* Period */
+.lot-selection-calendar-options-calendar-rule-period-container {
+    margin-bottom: 10px;
+}
+
+/* Last */
+.lot-selection-calendar-options-calendar-rule-last-container input[type="number"] {
+    margin-left: 15px;
+}
+
+.lot-selection-calendar-options-calendar-rule-last-container select {
+    margin-left: 15px;
+}
+
+
+/****** Data Retrieval ******/
+/* Aggregation Level*/
+.lot-selection-data-retrieval-aggregation-level-container {
+    margin: 10px;
+    text-align: left;
+}
+.lot-selection-data-retrieval-aggregation-level-container input {
+    margin: 5px;
+}
+
+
+/* Retrieve Parameter By*/
+.lot-selection-data-retrieval-retrieve-parameter-by-container {
+    margin: 10px;
+    text-align: left;
+}
+
+.lot-selection-data-retrieval-retrieve-parameter-by-container input {
+    margin: 5px;
+}
+
+
+/* Type */
+.lot-selection-data-retrieval-type-container {
+    font-weight: normal;
+    text-align: left;
+    margin:6px;
+}
+
+.lot-selection-data-retrieval-type-options-container {
+    text-align: left;
+    width:94.5%;
+    height:44%;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 5px;
+    position:absolute;
+    overflow-y:auto;
+}
+
+.lot-selection-data-retrieval-type-options-container input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
